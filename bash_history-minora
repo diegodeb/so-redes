@@ -498,3 +498,10 @@ ls -l /Library/Java/Home/
 ls -l /Library/Java/Home/bin/
 /Library/Java/Home/bin/java -version
 /usr/libexec/java_home 
+git clone https://github.com/leonardo-minora/so-redes.git
+cp ~/.bash_history bash_history-minora
+git add bash_history
+git status
+git commit
+git status
+
