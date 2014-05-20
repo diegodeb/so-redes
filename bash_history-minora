@@ -1,0 +1,500 @@
+clear
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/
+ls -l /System/Library/Frameworks/JavaVM.framework/
+ls -l /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries/
+CD
+cd
+ls -l /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries/
+ls -l /System/Library/Frameworks/JavaVM.framework/
+ls -l /System/Library/Frameworks/JavaVM.framework/
+ls -l /System/Library/Frameworks/JavaVM.framework/Commands/
+java -version
+grails
+brew versions grails
+brew
+brew info grails
+brew list grails
+brew unlink grails
+brew link grails
+grails
+cd /usr/local/opt/grails/bin/
+ls -l
+cd ../libexec/
+ls -l
+vim INSTALL 
+cat build.properties 
+cd conf/
+ls -l
+cd
+groovy -version
+groovysh 
+clear
+brew update 
+brew upgrade
+grails
+cd /System/Library/Java/
+cd JavaVirtualMachines/
+ls -l
+cd 1.6.0.jdk/
+ls -l
+ls Contents/
+java -version
+ls -la
+ls -la Contents/
+cat Contents/Info.plist 
+cd
+grails
+cd /usr/local/Cellar/grails/
+ls -l
+cd 2.3.8/libexec/bin/
+ls -l
+vim grails
+vim startGrails 
+cd /System/Library/Java/JavaVirtualMachines/
+cd 1.6.0.jdk/
+ls -l
+cd Contents/
+ls -l
+ls -l Libraries/
+cd ..
+ls -l
+cd Contents/
+ls -l
+ls -l Home/
+ls -l Home/lib/
+ls -l Home/bin/
+ls -l
+ls -l Home/
+ls -l Commands/
+ls -l
+ls -l Classes/
+cd
+java -version
+ls -l /System/Library/Frameworks/JavaVM.framework/
+ls -l /System/Library/Frameworks/JavaVM.framework/Home 
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/Current/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/Current/Frameworks/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/Current/Headers/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/Current/JavaVM 
+/System/Library/Frameworks/JavaVM.framework/Versions/Current/JavaVM 
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/Current/Resources/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/Current/_CodeSignature/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/Current/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/
+ls -l /System/Library/Frameworks/JavaVM.framework/
+ls -l /System/Library/Java/JavaVirtualMachines/
+ls -l /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/
+ls -l /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -version
+java -version
+ls -l /System/Library/Frameworks/JavaVM.framework/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/A/
+ls -l /Library/Java/
+ls -l /Library/Java/JavaVirtualMachines/
+ls -l /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/
+ls -l /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/
+ls -l /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/
+clear
+cd /System/Library/Frameworks/JavaVM.framework/
+ls -l
+cd Versions/
+ls
+ls -l
+sudo rm CurrentJDK
+ls -l
+sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents CurrentJDK
+ls -l
+cd ..
+ls -l
+ls Classes/
+ls Home/
+ls Commands/
+sudo rm Commands 
+sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/bin Commands
+ls -l Commands/
+ls -l
+sudo rm Commands 
+sudo rm Current 
+sudo ln -s Versions/Current Current
+ls -l Current/
+sudo ln -s Current/Commands/ Commands
+ls -l
+sudo rm Current
+sudo ln -s Versions/Current/ Current/
+sudo ln -s Versions/Current/ Current
+ls -l
+ls -l Headers/
+java -version
+grails
+clear
+cd
+cd Documents/Projetos/Maxmeio/ProjectManager/src/
+cd ../softs/
+ls -l
+cd telefone/
+grails
+ls -l grails-app/domain/
+cat grails-app/domain/telefone/Cliente.groovy 
+cd ..
+rm -rf telefone/
+grails create-app telefone
+cd telefone/
+grails
+clear
+cd /System/Library/Frameworks/JavaVM.framework/
+ls -l
+/usr/libexec/java_home -v 1.8.0_06 --exec javac -version
+/usr/libexec/java_home -v 1.8.0 --exec javac -version
+/usr/libexec/java_home 
+cd /Library/Java/
+ls -l
+cd JavaVirtualMachines/
+ls -l
+rm -rf jdk1.8.0*
+sudo rm -rf jdk1.8.0*
+ls -l
+cd ..
+ls -l
+ls -l Extensions/
+cd /System/Library/Frameworks/JavaVM.framework/
+ls -l
+cd Versions/
+ls -l
+sudo ln -sf /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/ CurrentJDK 
+ls -l
+cd A
+ls -l
+cd Commands/
+ls -l
+./java -version
+java -version
+clear
+cd ..
+cd 
+clear
+cd Documents/Projetos/Maxmeio/ProjectManager/softs/telefone/
+cd ..
+rm -rf telefone
+grails create-app telefone
+cd telefone/
+grails
+grails install-plugin database-migration
+grails
+grails dbm-generate-changelog changelog.groovy
+cd ..
+mv telefone tel
+cd ~/Downloads/
+unrar Legenda.Greys.Anatomy.S10E18.HDTV.XviD-AFG---Copy--2-.rar 
+unrar x Legenda.Greys.Anatomy.S10E18.HDTV.XviD-AFG---Copy--2-.rar 
+unrar x Legenda.Greys.Anatomy.S10E21.HDTV.XviD-FUM---Copy--2-.rar 
+ls -l
+mv Greys.Anatomy.S10E* ~/Movies/seriados/greys/
+unrar Legenda.Greys.Anatomy.S10E20.HDTV.XviD-AFG---Copy--2-.rar 
+unrar x Legenda.Greys.Anatomy.S10E20.HDTV.XviD-AFG---Copy--2-.rar 
+mv Greys.Anatomy.S10E20.HDTV.XviD-AFG.srt ~/Movies/seriados/greys/S10E20.srt
+unrar x Legenda.Greys.Anatomy.S10E22.HDTV.XviD-AFG---Copy--2-.rar 
+mv Greys.Anatomy.S10E22.HDTV.XviD-AFG.srt ~/Movies/seriados/greys/S10E22.srt
+open jdk-8u5-macosx-x64.dmg 
+cd ~/Downloads/
+ls -l
+mv grails-2.4.0.RC2 ~/springsource/
+cd /Library/Java/
+ls -l
+chmod a+x link2jdkApple.sh 
+ls -l
+./link2jdkApple.sh 
+ls -l
+./link2jdkApple.sh 
+ls -l
+cat link2jdkApple.sh 
+vim link2jdkApple.sh 
+./link2jdkApple.sh 
+ls -l /bin/
+vim link2jdkApple.sh 
+./link2jdkApple.sh 
+./link2jdkApple.sh 
+ls -l /bin/
+ls -l
+cat link2jdkApple.sh 
+sudo ln -sf /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/ Home
+sudo ln -sf /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home Home
+sudo ln -sf /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home Home
+ls -l
+sudo ln -sf /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/ Home
+sudo ln -sf /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home Home
+ls -l
+sudo ln -sf /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home Home
+ls -l
+man ln
+sudo ln -si /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home Home
+ls -l
+ls Home
+ls -l Home/
+cd Home/
+ls -l
+sudo rm Home
+ls -l
+cd ..
+sudo ln -si /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home Home
+ls -l
+ls -l Home/
+rm Home/Home
+sudo rm Home/Home
+sudo ln -si /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/ Home
+ls -l
+ls -l Home/
+sudo rm Home
+ls -l
+sudo ln -si /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/ Home
+ls -l
+ls -l
+cd ~/Downloads/
+unrar x legendas_tv_correcao_20140412151010.rar 
+ls
+mkdir ~/Movies/seriados/greys/E19
+ls -l | grep srt
+mv *srt ~/Movies/seriados/greys/E19/
+cd ..
+ls -l
+rm hello hello.groovy 
+ls -l
+ls -la
+ls -l .groovy/
+ls -l .groovy/grapes/
+ls -la .groovy/grapes/
+ls -la .groovy/greclipse/
+ls -la .groovy/greclipse/global_dsld_support/
+cat .groovy/groovysh.history 
+clear
+ls -la
+cat .bash_history 
+cat .bash_profile 
+clear
+gvm
+gvm help
+brew install gvm
+brew search gvm
+groovy -version
+ls -l /usr/local/Cellar/groovy/
+echo $PATH
+ls -l /usr/local/bin/
+echo $PATH
+sudo vim /etc/bashrc 
+sudo vim /etc/profile 
+sudo vim /etc/paths
+sudo vim /etc/paths
+ls -l
+ls -l grails-app/
+ls -l grails-app/migrations/
+rm -r grails-app/migrations
+cd
+cd Downloads/
+ls -l
+unrar x Legenda.Greys.Anatomy.S10E23.HDTV.XviD-AFG.rar 
+unrar x Legenda.Greys.Anatomy.S10E24.HDTV.XviD-FUM.rar 
+mv Greys.Anatomy.S10E23.HDTV.XviD-AFG.srt ~/Movies/seriados/greys/S10E23.srt 
+mv Greys.Anatomy.S10E24.HDTV.XviD-FUM.srt ~/Movies/seriados/greys/S10E24.srt 
+ls -l
+ls l
+ls -l
+brew upgrade groovy
+groovy -version
+clear
+cd /usr/local/opt/grails
+ls
+cd libexec/src/grails
+ls -l
+ls home/
+vim grails-app/conf/BuildConfig.groovy 
+cd
+cd Documents/src/grails/
+vim telefone/grails-app/domain/telefone/Telefone.groovy 
+ls -l
+groovy
+groovy -version
+ls -l /usr/local/Cellar/groovy/
+ls -l /System/Library/Java/JavaVirtualMachines/
+ls -l /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/
+ls -l /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/
+ls -l /System/Library/Frameworks/JavaVM.framework/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions/A/
+ls -l /Library/Java/
+ls -l /Library/Java/JavaVirtualMachines/
+ls -l /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/
+ls -l /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/
+ls -l /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/
+cd /Library/Java/
+ls -l
+vim link2jdkApple.sh
+vim link2jdkApple.sh
+sudo ln -sf JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/ Home
+ls -l
+sudo ln -sf JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home Home
+ls -l
+ls -l Home/
+vim link2jdkApple.sh
+java -version
+javac -version
+cd ~/Documents/Projetos/Maxmeio/ProjectManager/softs/
+mv phone-book tel ~/Documents/src/grails/
+rm -rf telefone
+ls -l
+cd ~/Documents/src/grails/
+grails create-app telefone
+grails install-plugin database-migration
+grails list-plugin 
+grails plugin-info dbmigrate
+grails install-plugin dbmigrate
+cd telefone/
+grails install-plugin dbmigrate
+vim grails-app/conf/BuildConfig.groovy 
+grails dbm-generate-changelog changelog.groovy
+vim grails-app/services/changelog/GroovyService.groovy 
+grails
+cd ..
+rm -rf telefone/
+grails create-app telefone
+cd telefone/
+grails 
+vim grails-app/conf/BuildConfig.groovy 
+grails
+cd ..
+rm -rf telefone/
+grails create-app telefone
+cd telefone/
+grails
+cd ..
+rm -rf telefone/
+grails create-app telefone
+vim telefone/grails-app/conf/BuildConfig.groovy 
+cd telefone/
+grails compile
+grails
+cd ..
+rm -rf telefone
+grails -version
+man grails
+grails -help
+grails help
+grails -version -verbose
+java -version
+grails
+grails create-app telefone
+cd telefone/
+grails
+pwd
+grails
+vim grails-app/conf/Config.groovy 
+vim grails-app/conf/BuildConfig.groovy 
+vim application.properties 
+vim grails-app/views/index.gsp 
+vim grails-app/views/index.gsp 
+groovysh
+clear
+cd 
+ls -la 
+cd .m2/
+ls -l
+cd repository/
+ls -l
+ls -l org/
+ls -l org/codehaus/
+cd org/
+ls -l
+rm -rf codehaus
+ls -l
+ls -l
+ls -l codehaus/
+ls -l codehaus/groovy/
+ls -l codehaus/groovy/groovy-all/
+ls -l codehaus/groovy/groovy-all/2.1.9/
+cd
+ls -l
+ls -la
+rm -rf .m2 .mplayer .grails* .groovy
+ls -la
+curl -s get.gvmtool.net | bash
+source "/Users/leonardo/.gvm/bin/gvm-init.sh"
+cat .gvm/bin/gvm-init.sh 
+echo $PATH
+cat .bash_profile 
+ls -la
+gvm help
+gvm i groovy
+groovy -version
+groovysh
+gvm i grails
+grails -version
+cd Documents/src/grails/telefone/
+grails
+grails
+cd
+cd Documents/src/grails/telefone/
+grails
+ls -l
+ls -l target/
+ls -l target/work/
+brew 
+brew unistall grails
+brew uninstall grails
+brew uninstall grails
+ls -l /usr/local/Cellar/
+brew uninstall groovy
+brew uninstall groovy
+brew uninstall groovy
+ls -l /usr/local/Cellar/
+ls -l /usr/local/opt/
+source "/Users/leonardo/.gvm/bin/gvm-init.sh"
+grails
+grails
+grails
+open ~/springsource/ggts-3.5.1.RELEASE/GGTS.app
+ls -l /Library/Java/
+sudo rm /Library/Java/link2jdkApple.sh 
+ls -l /Library/Java/JavaVirtualMachines/
+open ~/Downloads/jdk-7u25-macosx-x64.dmg 
+groovy -version
+ls -l /Library/Java/
+ls -l /Library/Java/JavaVirtualMachines/
+ls -l .grails/2.3.8/projects/.core/resources/
+ls -l .grails/2.3.8/projects/.core/scriptCache/
+ls -l .grails/2.3.8/projects/.core/integration-files/
+ls -l .grails/2.3.8/tmp/
+vim .grails/2.3.8/projects/.core/integration-files/
+vim .grails/2.3.8/projects/.core/integration-files/build.xml 
+clear
+cd Documents/src/grails/telefone/
+grails
+vim grails-app/conf/BuildConfig.groovy 
+grails
+vim grails-app/conf/BuildConfig.groovy 
+grails
+cd ..
+rm -rf telefone/
+ls -l /Library/Java/JavaVirtualMachines/
+ls -l /Library/Java/
+java_home
+cd /Library/Java/JavaVirtualMachines/
+ls -l
+sudo rm -rf jdk1.*
+ls -l
+java -version
+javac -version
+cd ~/Documents/src/grails/
+ls -l
+cd ../..
+cd Projetos/Maxmeio/ProjectManager/src/
+git checkout -b issue15
+open ~/springsource/ggts-3.5.1.RELEASE/GGTS.app
+grails
+grails
+ls -l /Library/Java/
+ls -l /Library/Java/JavaVirtualMachines/
+ls -l /Library/Java/Extensions/
+clear
+groovy -version
+ls -l /Library/Java/Home/
+ls -l /Library/Java/Home/bin/
+/Library/Java/Home/bin/java -version
+/usr/libexec/java_home 
