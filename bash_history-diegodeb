@@ -1,1 +1,24 @@
-/home/diego/.bash_history
+shutdown -r now
+sudo shutdown -r now
+su -
+sudo vim /etc/inittab 
+sudo shutdown -r now
+apt-get install gnome2
+sudo apt-get install gnome2
+sudo apt-get install gnome
+shutdown -r now
+sudo shutdown -r now
+sudo vim /etc/inittab 
+sudo vim /etc/init.d/rcS
+sudo vim /etc/init.d/rc
+startx
+cd /media/cdrom
+ls
+./autorun.sh
+sudo ./autorun.sh
+chmod +x autorun.sh 
+sudo ./autorun.sh
+sudo ./runasroot.sh
+cat ~/.history
+history
+ls -la
